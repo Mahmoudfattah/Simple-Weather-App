@@ -1,0 +1,116 @@
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+body{
+    background: #222;
+}
+
+.card  {
+
+   width: 90%;
+   max-width: 470px;
+   background: linear-gradient(135deg, #00feba, #5b548a);
+   color: #fff;
+   margin: 90px auto 0 ;
+   border-radius: 20px;
+   padding: 40px 35px;
+   text-align: center;
+  
+   
+   .search{
+
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+        input{
+            padding: 10px 25px;
+           border: 0;
+           outline: 0;
+           background: #ebfffc;
+           border-radius: 30px;
+           height: 60px;
+           flex: 1;
+           margin-right: 16px;
+           font-size: 18px;  
+        }  
+
+        .btn{
+            border: 0;
+           outline: 0;
+           background: transparent;
+           border: 2px solid #9ea2a2 ;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            justify-content: center;
+            cursor: pointer;
+
+          
+            img{
+              
+               height: 25px;
+               margin-top: 5px;
+
+            }
+        }
+ 
+   }
+
+
+}
+.search .btn:hover{
+    background: #ebfffc ;
+}
+.search .btn:hover img{
+    transform: scale(1.4);
+}
+.weather{
+   h1{
+    font-size: 80px;
+    font-weight: 500;
+   }
+   h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 10px;
+   }
+
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        img{
+          width: 40px;
+          margin-right: 10px;
+        }
+        p{
+            padding: 3px 0;
+        }
+
+        .humidity, .wind{
+            font-size: 22px;
+            margin-top: -6px;
+            text-transform: lowercase;
+        }
+    }
+}
