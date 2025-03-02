@@ -21,3 +21,6 @@ WeatherCast is a simple web application that displays the weather conditions for
 1. Clone the repository:
    ```sh
    git clone https://github.com/Mahmoudfattah/WeatherCast.git
+
+   you can see it :  https://mahmoudfattah.github.io/Simple-Weather-App/
+   
