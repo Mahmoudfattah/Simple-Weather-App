@@ -14,13 +14,12 @@ WeatherCast is a simple web application that displays the weather conditions for
 - CSS3
 - JavaScript (to interact with the weather API)
 
-## 📸 Screenshots
-![Weather App](./screenshots/weather-app.png)
+   you can see it :  https://mahmoudfattah.github.io/Simple-Weather-App/
 
 ## 🔧 How to Run the Project
 1. Clone the repository:
    ```sh
    git clone https://github.com/Mahmoudfattah/WeatherCast.git
 
-   you can see it :  https://mahmoudfattah.github.io/Simple-Weather-App/
+
    
